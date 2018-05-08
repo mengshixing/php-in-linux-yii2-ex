@@ -6,3 +6,9 @@
 
 ./configure --with-php-config=/usr/local/php/bin/php-config
 make && make install
+
+开启PHP错误显示(开发模式)
+
+1 echo phpinfo() 获取php.ini文件位置
+
+2 编辑php.ini,设置display_errors = On
