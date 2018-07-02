@@ -10,3 +10,8 @@ $oldass->save();  //生成一条新的记录,复制了除id外的其它属性
 public $basePath = '@webroot';  
 public $baseUrl = '@web';  
 public $sourcePath =NULL;  
+
+### 3 yii2 高级版advanced中使用console命令行：  ###
+* 打开console\config\main.php页面  
+修改'controllerNamespace' => 'console\controllers'   
+然后在console\controllers文件夹内建控制器文件即可,例如TestController.php文件
